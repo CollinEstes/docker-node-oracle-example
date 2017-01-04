@@ -1,0 +1,26 @@
+{
+  "name": "docker-node-oracle-example",
+  "version": "1.0.0",
+  "description": "An example project for using docker-node-version",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "node ./node_modules/docker-node-version",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CollinEstes@github.com/CollinEstes/docker-node-oracle-example.git"
+  },
+  "keywords": [
+    "docker-node-version"
+  ],
+  "author": "Collin Estes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CollinEstes/docker-node-oracle-example/issues"
+  },
+  "homepage": "https://github.com/CollinEstes/docker-node-oracle-example#readme",
+  "devDependencies": {
+    "docker-node-version": "^1.0.1"
+  }
+}
