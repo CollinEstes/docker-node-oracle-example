@@ -3,7 +3,7 @@ version: "2"
 services:
    docker-node-version-example:
      build: .
-     image: docker-node-version-example
+     image: docker-node-version-example:1.0.1
      container_name: docker-node-version-example
      environment:
        - NODE_ENV=production

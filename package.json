@@ -1,6 +1,6 @@
 {
   "name": "docker-node-oracle-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An example project for using docker-node-version",
   "main": "index.js",
   "scripts": {
